@@ -1,0 +1,44 @@
+.genre-toggle {
+    float: left;
+    height: 44px;
+    margin: 0 5px 5px 0;
+}
+
+.genre-toggle__input {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+}
+
+.genre-toggle__label {
+    line-height: 20px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    padding: 10px 10px 10px 35px;
+    position: relative;
+    cursor: pointer;
+}
+
+.genre-toggle__label:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: '\f00d';
+    color: #DDD;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.genre-toggle__input:checked + .genre-toggle__label {
+    background-color: #007bff;
+    color: #FFF;
+}
+
+.genre-toggle__input:checked + .genre-toggle__label:before {
+    content: '\f00c';
+    color: #FFF;
+}

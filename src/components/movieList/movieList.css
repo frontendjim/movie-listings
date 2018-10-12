@@ -1,0 +1,42 @@
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.movies-filters__rating,
+.movies-filters__genres {
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.movies-totel-text {
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .movies-filters {
+        display: flex;
+    }
+}
+
+@media (min-width: 768px) {
+    .movies-filters__rating {
+        flex: 0 0 33.333%;
+        margin-right: auto;
+    }
+
+    .movies-filters__genres {
+        flex: 1;
+        padding-right: 20px;
+        margin-left: auto
+    }
+}
+
+@media (min-width: 996px) {
+    .movies-filters__rating {
+        flex: 0 0 25%;
+    }
+}
