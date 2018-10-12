@@ -30,3 +30,9 @@
 4. No provision made for accessibility i.e. ARIA, etc
 5. Not tested in anything other than Google Chrome
 6. Only a few unit tests included as examples - not full test coverage
+
+## Improvements beyond scope
+* Loading states to avoid elements not appearing until API response received. Possibly as a re-usable higher order component
+* Filter genres down to available options as you click them
+* Pagination
+* Nicer layout
