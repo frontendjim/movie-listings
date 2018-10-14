@@ -9,10 +9,8 @@ const App = () =>
   <div className="App">
 
     <NavBar />
-
-    <main className="container-fluid">
-      <MovieList />
-    </main>
+    
+    <MovieList />
 
   </div>
 
