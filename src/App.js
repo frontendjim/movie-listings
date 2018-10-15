@@ -10,7 +10,9 @@ const App = () =>
 
     <NavBar />
     
-    <MovieList />
+    <main className="container-fluid">
+      <MovieList />
+    </main>
 
   </div>
 
